@@ -1,11 +1,11 @@
 # wire-webapp-core-run
 
     var argv = require('optimist')
-   .alias('c', 'conversation')
-   .alias('e', 'email')
-   .alias('m', 'message')
-   .alias('p', 'password')
-   .argv;
+        .alias('c', 'conversation')
+       .alias('e', 'email')
+       .alias('m', 'message')
+       .alias('p', 'password')
+       .argv;
       var cryptobox = require('wire-webapp-cryptobox');
       var wire = require('wire-webapp-core');
   
