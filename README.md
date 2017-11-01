@@ -1,6 +1,6 @@
 # wire-webapp-core-run
 
-[webapp-core](https://github.com/wire/wire-webapp-core)
+[webapp-core](https://github.com/wireapp/wire-webapp-core)
 
     
     #!/bin/bash
