@@ -4,7 +4,7 @@
     "url": "https://github.com/robisys/wire-webapp-core-run/issues"
   },
   "dependencies": {
-    "wire-webapp-cryptobox": "",
+    "wire-webapp-cryptobox": "@6.2.0",
     "optimist": "~0.6.1",
     "wire-webapp-core": "~0.2.0"
   },
