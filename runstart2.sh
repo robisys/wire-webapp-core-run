@@ -21,7 +21,8 @@ MESSAGE="knorkel-message"
 #EMAIL="wire2@robisys.de"
 #PASSWORD="H84#67bK"
 
-node start2.js --e="$EMAIL" --p="$PASSWORD" --c="$CONVERSATION_ID"  --m="MESSAGE"
+echo "email: " $EMAIL
+node start2.js --e="$EMAIL" --p="$PASSWORD" --c="$CONVERSATION_ID"  --m="$MESSAGE"
 
 
 
