@@ -16,5 +16,9 @@
     "type": "git",
     "url": "git+https://github.com/robisys/wire-webapp-core-run.git"
   },
+   "scripts": {
+   "r1": "node index.js",
+   "test": "npm run r1"
+  },
   "version": "0.1.0"
 }
