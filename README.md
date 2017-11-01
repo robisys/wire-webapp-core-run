@@ -1,4 +1,7 @@
 # wire-webapp-core-run
+
+[webapp-core](https://github.com/wire/wire-webapp-core)
+
     
     #!/bin/bash
     EMAIL="mail@server.de"
