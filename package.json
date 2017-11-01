@@ -1,10 +1,9 @@
 {
-  "author": "robisys (wire)",
+  "author": "Wire",
   "bugs": {
-    "url": "https://github.com/robisys/wire-webapp-core-run/issues"
+    "url": "https://github.com/wireapp/wire-webapp-core-client/issues"
   },
   "dependencies": {
-    "wire-webapp-cryptobox": "@6.2.0",
     "optimist": "~0.6.1",
     "wire-webapp-core": "~0.2.0"
   },
@@ -12,15 +11,10 @@
   "homepage": "https://github.com/wireapp/wire-webapp-core-client#readme",
   "license": "GPL-3.0",
   "main": "index.js",
-  "name": "wire-webapp-core-run",
+  "name": "wire-webapp-core-client",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robisys/wire-webapp-core-run.git"
-  },
-   "scripts": {
-   "r1": "node start2.js",
-   "test": "npm run r1"
+    "url": "git+https://github.com/wireapp/wire-webapp-core-client.git"
   },
   "version": "0.1.0"
 }
- 
