@@ -16,5 +16,9 @@
     "type": "git",
     "url": "git+https://github.com/wireapp/wire-webapp-core-client.git"
   },
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node example/start.js"
+},
   "version": "0.1.0"
 }
