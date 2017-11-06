@@ -1,5 +1,10 @@
 # wire-webapp-core-run
 
+  
+[![Build Status](https://secure.travis-ci.org/robisys/wire-webapp-core-run.svg?branch=master)](https://travis-ci.org/robisys/wire-webapp-core-run)
+
+
+
 [webapp-core](https://github.com/wireapp/wire-webapp-core)
 
     
