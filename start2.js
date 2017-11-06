@@ -1,17 +1,24 @@
 // start2.js
 
-
+/*
 var argv = require('optimist')
   .alias('c', 'conversation')
   .alias('e', 'email')
   .alias('m', 'message')
   .alias('p', 'password')
   .argv;
+*/
+
+var email="wire1@robisys.de";
+var password="K79#Abd46";
+
 var cryptobox = require('wire-webapp-cryptobox');
 var wire = require('wire-webapp-core');
 
 var box = new cryptobox.Cryptobox(new cryptobox.store.Cache(), 10);
-var user = new wire.User({email: argv.email, password: argv.password}, box);
+//var user = new wire.User({email: argv.email, password: argv.password}, box);
+var user = new wire.User({email: email, password: password}, box);
+
 var connectWebSocket = true;
 
 
