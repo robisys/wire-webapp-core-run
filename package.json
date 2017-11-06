@@ -18,7 +18,8 @@
   },
   "scripts": {
   "test1": "echo \"Error: no test specified\" && exit 1",
-  "test":  "node ./start2.js"
+  "test": "npm run t2",
+  "t2":  "node ./start2.js"
 },
   "version": "0.1.0"
 }
