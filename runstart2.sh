@@ -1,8 +1,8 @@
 #!/bin/bash
 
 EMAIL="wire1@robisys.de";
-PASSWORD="K79#Abd46";
-CONVERSATION_ID="1f0ad059-1ac4-46c6-bd4c-a689c789a2c2"
+PASSWORD="password";
+CONVERSATION_ID="123456-1234-4567-8901-a689c789a2c2"
 
 MESSAGE="get self"
 
