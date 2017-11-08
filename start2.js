@@ -16,8 +16,8 @@ var cryptobox = require('wire-webapp-cryptobox');
 var wire = require('./core');
 
 var box = new cryptobox.Cryptobox(new cryptobox.store.Cache(), 10);
-//var user = new wire.User({email: argv.email, password: argv.password}, box);
-var user = new wire.User({email: email, password: password}, box);
+var user = new wire.User({email: argv.email, password: argv.password}, box);
+//var user = new wire.User({email: email, password: password}, box);
 
 var connectWebSocket = true;
 
