@@ -25,8 +25,8 @@
   },
   "scripts": {
   "testa": "echo \"Error: no test specified\" && exit 1",
-  "test": "echo \"no Error: this test ok \" && exit 0",  
-  "test1": "npm run t2",
+  "test1": "echo \"no Error: this test ok \" && exit 0",  
+  "test": "npm run t2",
   "t2":  "node ./start2.js"
 },
   "version": "0.1.0"
