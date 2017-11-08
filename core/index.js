@@ -17,7 +17,8 @@
  *
  */
 
-console.log("core  start: ");
+var logger = new Logdown({prefix: 'rp-user ', alignOutput: true});
+logger.log("core  start: ");
 
 module.exports = {
   User: require('./user/User')
