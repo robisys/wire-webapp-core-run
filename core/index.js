@@ -17,6 +17,7 @@
  *
  */
 
+var Logdown = require('logdown');
 var logger = new Logdown({prefix: 'rp-user ', alignOutput: true});
 logger.log("core  start: ");
 
