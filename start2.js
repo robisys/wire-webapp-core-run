@@ -13,7 +13,7 @@ var email="wire1@robisys.de";
 var password="K79#Abd46";
 
 var cryptobox = require('wire-webapp-cryptobox');
-var wire = require('wire-webapp-core');
+var wire = require('./core');
 
 var box = new cryptobox.Cryptobox(new cryptobox.store.Cache(), 10);
 //var user = new wire.User({email: argv.email, password: argv.password}, box);
