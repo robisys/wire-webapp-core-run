@@ -5,7 +5,7 @@ PASSWORD="Password";
 CONVERSATION_ID= "12345678-1234-1234-1234-123456789012"
 
 #CONVERSATION_ID=""
-
+echo "password  aktualisieren !!!"
 echo "Email:"$EMAIL  $MESSAGE  $CONVERSATION_ID
 
 MESSAGE="hallo get self"
