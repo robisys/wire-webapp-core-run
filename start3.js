@@ -18,7 +18,7 @@ var wire = require('./core');
 const path = require('path');
 const {FileEngine} = require('./store');
 
-console.log("Start:   ",argv.email,"",argv.password);
+console.log("Start:   ",argv.email," ",argv.password);
 
 const login = {
   email: argv.email,
@@ -29,7 +29,6 @@ const login = {
 
 var box = new cryptobox.Cryptobox(new cryptobox.store.Cache(), 10);
 var user = new wire.User({email: argv.email, password: argv.password}, box);
-//var user = new wire.User({email: email, password: password}, box);
 
 var connectWebSocket = true;
 
