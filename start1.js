@@ -11,7 +11,7 @@ var argv = require('optimist')
 //
 var email="wire1@robisys.de";
 var password="K79#Abd46";
-var conversation= "";
+var conversation="1f0ad059-1ac4-46c6-bd4c-a689c789a2c2";
 var message= "message";
 
 var cryptobox = require('wire-webapp-cryptobox');
