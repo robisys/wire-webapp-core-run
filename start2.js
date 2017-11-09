@@ -21,7 +21,7 @@ var user = new wire.User({email: argv.email, password: argv.password}, box);
 
 var connectWebSocket = true;
 
-
+console.log("Start:  email= ",argv.email," password= ",argv.password);
 
 user
 .login(connectWebSocket)
