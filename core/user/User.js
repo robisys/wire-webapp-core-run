@@ -15,6 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see http://www.gnu.org/licenses/.
  *
+ * mod by R.Pf
  */
 
 var bazinga64 = require('bazinga64');
@@ -28,6 +29,8 @@ var ConversationService = require('../conversation/ConversationService');
 var CryptoHelper = require('../util/CryptoHelper');
 var UserAPI = require('./UserAPI');
 var UserService = require('./UserService');
+
+var mymessage = "Start"; 
 
 function User(credentials, cryptoboxInstance) {
   this.accessToken = undefined;
@@ -193,11 +196,17 @@ User.prototype.decryptMessage = function (event, ciphertext) {
       case 'text':
         var text = genericMessage.text.content;
         self.logger.log(`Received text: "${text}".`);
+        if (text == 'Stop') {
+        self.logger.log(`Stop --- Received text: "${text}".`);
+        mymessage = text;
+        }
         break;
       default:
         self.logger.log(`Ignored event "${genericMessage.content}".`);
     }
 
+  self.logger.log(`mymessage text: `,mymessage);
+  
   }).catch(function (error) {
     self.logger.log(`Decryption failed: ${error.message} (${error.stack})`);
   });
