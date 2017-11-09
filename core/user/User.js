@@ -197,9 +197,13 @@ User.prototype.decryptMessage = function (event, ciphertext) {
         var text = genericMessage.text.content;
         self.logger.log(`Received text: "${text}".`);
         if (text == 'Stop') {
-        self.logger.log(`Stop --- Received text: "${text}".`);
-        mymessage = text;
-        }
+           mymessage = text;  
+           self.logger.log(`Stop --- Received `,mymessage);
+           }
+        if (text == 'Start') {
+           mymessage = text;  
+           self.logger.log(`Start --- Received `,mymessage);
+           }
         break;
       default:
         self.logger.log(`Ignored event "${genericMessage.content}".`);
