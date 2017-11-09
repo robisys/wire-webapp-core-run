@@ -1,13 +1,13 @@
 // start2.js
 
-
+/*
 var argv = require('optimist')
   .alias('c', 'conversation')
   .alias('e', 'email')
   .alias('m', 'message')
   .alias('p', 'password')
   .argv;
-
+*/
 //
 argv.email="wire1@robisys.de";
 argv.password="K79#Abd46";
