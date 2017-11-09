@@ -1,4 +1,4 @@
-// start2.js
+// start1.js
 
 /*
 var argv = require('optimist')
@@ -21,12 +21,15 @@ var user = new wire.User({email: email, password: password}, box);
 
 var connectWebSocket = true;
 
-console.log("Start:  email= ",argv.email," password= ",argv.password);
+//console.log("Start:  email= ",argv.email," password= ",pargv.assword);
+console.log("Start:  email= ",email, " ",password);
+
 
 user
 .login(connectWebSocket)
 .then(function (service) {
-  return service.conversation.sendTextMessage(argv.conversation, argv.message);
+    //return service.conversation.sendTextMessage(argv.conversation, argv.message);
+  return service.conversation.sendTextMessage(conversation, message);
 })
 .then(function (service) {
   return service.user.logout();
