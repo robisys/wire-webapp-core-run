@@ -9,8 +9,10 @@ var argv = require('optimist')
   .argv;
 */
 //
-email="wire1@robisys.de";
-password="K79#Abd46";
+var email="wire1@robisys.de";
+var password="K79#Abd46";
+var conversation= "";
+var message= "message";
 
 var cryptobox = require('wire-webapp-cryptobox');
 var wire = require('./core');
