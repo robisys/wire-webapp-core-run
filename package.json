@@ -11,6 +11,8 @@
     "popsicle-status": "2.0.0",
     "protobufjs": "5.0.1",
     "uuid": "3.0.1",
+    "path" : "",
+    "fs-extra": "",
     "wire-webapp-cryptobox": "1.2.1",
     "ws": "1.1.1"
   },
