@@ -35,6 +35,7 @@
     var user = new wire.User({email: argv.email, password: argv.password}, box);
     var connectWebSocket = true;
 
+
     user
     .login(connectWebSocket)
     .then(function (service) {
