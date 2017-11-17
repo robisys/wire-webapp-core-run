@@ -199,6 +199,7 @@ User.prototype.decryptMessage = function (event, ciphertext) {
         if (text == 'Stop') {
            mymessage = text;  
            self.logger.log(`Stop --- Received `,mymessage);
+          exit 0 ;
            }
         if (text == 'Start') {
            mymessage = text;  
